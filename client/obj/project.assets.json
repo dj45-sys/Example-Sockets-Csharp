@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0": []
+  },
+  "packageFolders": {
+    "/home/dj45-sys/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/dj45-sys/Escritorio/Dj45-sys/AprendiendoLenguajesDeProgramacion/CSharp/client/client.csproj",
+      "projectName": "client",
+      "projectPath": "/home/dj45-sys/Escritorio/Dj45-sys/AprendiendoLenguajesDeProgramacion/CSharp/client/client.csproj",
+      "packagesPath": "/home/dj45-sys/.nuget/packages/",
+      "outputPath": "/home/dj45-sys/Escritorio/Dj45-sys/AprendiendoLenguajesDeProgramacion/CSharp/client/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/dj45-sys/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.104/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU3028",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: UntrustedRoot: self signed certificate in certificate chain",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU3028",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: UntrustedRoot: self signed certificate in certificate chain",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    }
+  ]
+}

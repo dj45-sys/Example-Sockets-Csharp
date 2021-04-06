@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "JECkhMFCAfhCsms3p58Y72Gk95I9D+kAg2ibGrwMjY2U562c3N1dRqZ/Fjyfm93UvmSy4T/Gn/Zbn+Vm98GBYQ==",
+  "success": false,
+  "projectFilePath": "/home/dj45-sys/Escritorio/Dj45-sys/AprendiendoLenguajesDeProgramacion/CSharp/client/client.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU3028",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: UntrustedRoot: self signed certificate in certificate chain",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU3028",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: UntrustedRoot: self signed certificate in certificate chain",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    }
+  ]
+}
